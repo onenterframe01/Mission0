@@ -1,0 +1,375 @@
+/*Daniel Levine / Mission Ready / Mission 0*/
+
+body {
+  background-color: #505050;
+  position: absolute;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+}
+
+#search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 20px;
+  box-shadow: 0 0 6px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 50px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #138065;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.profile {
+  display: block;
+  float: right;
+  height: 83%;
+  width: auto;
+  /* border: 8px solid #ffffff; */
+  border-radius: 600px;
+  top: 11%;
+  position: relative;
+  margin-right: 0%;
+}
+
+img.profile.img-fluid {
+  width: 32%;
+}
+.search-container {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.search-field {
+  height: 50px;
+  position: relative;
+  top: 96px;
+  /*margin: -11px;*/
+}
+
+nav.navbar.navbar-expand-lg {
+  margin-top: 0%;
+  float: left;
+  /* margin-left: -10%; */
+}
+
+div#navbarSupportedContent {
+  margin-top: -2%;
+}
+
+.search-button {
+  height: 50px;
+  width: 376px;
+  position: relative;
+  top: 200px;
+}
+
+.mission {
+  margin-top: 30px;
+  font-style: italic;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 45px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding: 6rem !important;
+  color: black;
+}
+
+.intro-para {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  background-color: black;
+  margin-top: 30px;
+}
+
+.technology-text {
+  /*border: 2px solid black;*/
+  padding: 1rem !important;
+  color: white;
+  background-color: black;
+}
+
+footer.footer.mt-auto.py-3.bg-light {
+  text-align: center;
+  font-weight: bold;
+}
+
+.technologies {
+  /*outline: solid 1px black;*/
+  text-align: center;
+}
+
+img.html5 {
+  margin-top: 4%;
+  /* border: 2px solid black;*/
+}
+
+.navbar-light .navbar-nav {
+  color: white !important;
+  font-family: "Raleway", Arial, san-serif;
+  font-weight: lighter;
+}
+
+.nav-link {
+  font-size: 1.7em !important;
+}
+
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+.button {
+  background-color: #505050;
+  border: 1px solid white;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3em !important;
+  margin: 5px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 13px 32px;
+  text-decoration: none;
+  margin: 0px -6px;
+  cursor: pointer;
+}
+
+.box {
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+  background-color: white;
+  /* margin-right: 60px;
+  margin-left: 60px; */
+}
+
+.main-body {
+  background-color: #eae9e9;
+}
+
+.main-text {
+  color: #a41f1f;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.main-text-contact {
+  color: #a41f1f;
+  margin-left: 50px;
+
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.heading-video {
+  color: #a41f1f;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 0px !important;
+}
+
+.main-body-video {
+  background-color: #eae9e9;
+  text-align: center;
+}
+
+.forms {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.logo {
+  width: 10%;
+  margin: 10px;
+  color: white;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: 50%;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: regular;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff !important;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+a:hover {
+  color: #fff !important;
+  background-color: transparent;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 40px;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: auto;
+  /*background-color: black;*/
+  font-weight: lighter;
+  border: none;
+  /* padding: 10px !important;
+  opacity: 0.5; */
+  margin-top: 3%;
+}
+
+.website-header-background {
+  /* outline: 1px solid red; */
+  height: 70px;
+  /* float: left; */
+  background-color: #ccc;
+  width: 100%;
+  height: 120px;
+  margin: 0px !important;
+  /* position: relative;
+      z-index: -1; */
+}
+
+.website-content-background1 {
+  float: left;
+  background: url(../img/main6.jpeg) repeat 0 0;
+  /* background-color: #f9bf3b; */
+  width: 100%;
+  height: 400px;
+  position: relative;
+  z-index: -1;
+}
+
+.website-content-background2 {
+  background-color: #f9bf3b;
+  /* background: url(../img/main1.jpeg) repeat 0 0; */
+  width: 100%;
+  height: 305px;
+  position: relative;
+  z-index: -2;
+}
+
+.website-content-background3 {
+  background-color: #00bff3;
+  /* background: url(../img/main2.jpeg) no-repeat 0 0; */
+  width: 100%;
+  height: 150px;
+  position: relative;
+  z-index: -2;
+  text-align: center;
+}
+
+.website-content-background4 {
+  height: 70px;
+  float: left;
+  background-color: #fff;
+  /* background: url(../img/main6.jpeg) repeat 0 0; */
+  width: 100%;
+  height: 0px;
+  position: relative;
+  z-index: -2;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../img/hamburgericon.png") !important;
+}
+
+.navbar-nav {
+  padding-left: 0;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1800px) {
+  .profile {
+    display: block;
+    float: left;
+    width: auto;
+    /* border: 8px solid #ffffff; */
+    border-radius: 600px;
+    top: 11%;
+    position: relative;
+    margin-right: 1%;
+    margin-left: 0%;
+    height: 90%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .profile {
+    top: 11% !important;
+    /* outline: 1px solid red !important; */
+    height: 78%;
+    width: auto;
+  }
+
+  .search-button {
+    height: 50px;
+    width: 285px;
+    margin-left: 24%;
+    z-index: -1;
+    position: relative;
+    top: 100px;
+    /*outline: 1px solid red;*/
+    background-color: black;
+    /*margin: -11px;*/
+  }
+}
