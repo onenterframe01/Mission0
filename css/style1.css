@@ -1,0 +1,162 @@
+/*Daniel Levine / Mission Ready / Mission 0*/
+
+body {
+  /* background-color: #505050; */
+}
+
+/*Header*/
+.header {
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+/* a.nav-link {
+  padding-left: 0px !important;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+} */
+
+.navi {
+  background-color: black;
+  padding-top: 1%;
+  /* height: 20%; */
+}
+
+li.nav-item a {
+  color: white;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.software {
+  background-color: black;
+  height: 20%;
+}
+
+.brand {
+  background-color: red;
+}
+
+.navigation {
+  background-color: yellow;
+}
+
+img.profile.img-fluid {
+  width: 10%;
+  /* background-color: yellow; */
+  float: right;
+  padding: 5px;
+}
+
+.brand {
+  background-color: red;
+}
+
+/*Header*/
+
+/*Blocks*/
+.block1 {
+  text-align: center;
+  background-color: white;
+  opacity: 1;
+}
+
+.box :hover {
+  outline: 2px solid red;
+  background: red;
+  padding: 5px;
+}
+
+.block2 {
+  text-align: center;
+  background-color: white;
+}
+
+.block3 {
+  text-align: center;
+  background-color: white;
+}
+
+.block4 {
+  text-align: center;
+  background-color: white;
+}
+
+.block5 {
+  text-align: center;
+  background-color: white;
+}
+
+.block6 {
+  text-align: center;
+  background-color: white;
+}
+
+.box {
+  /* border: 1px solid red; */
+  margin-bottom: 60px;
+  margin-top: 30px;
+  background-color: white;
+  /* margin-right: 60px;
+    margin-left: 60px; */
+}
+.search {
+  background-color: darkgray;
+  text-align: center;
+  color: white;
+}
+/*Blocks*/
+
+/*Search*/
+#search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 20px;
+  box-shadow: 0 0 6px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #138065;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+/*Search*/
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+
+  text-align: center;
+  height: 10%;
+  padding-top: 40px;
+}
+
+span.text-muted {
+  color: black !important;
+  font-weight: bold;
+}
+/*Footer*/
